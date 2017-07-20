@@ -1,8 +1,8 @@
-#Javascript Cheat Sheet
+# Javascript Cheat Sheet
 
-##String
+## String
 
-###access
+### access
 
 `charAt(index)` - returns the character at `index`
 
@@ -10,7 +10,7 @@
 `slice(start, end)` - like substring, but without the swapping. instead if `start >= end`, an empty string is returned
 `substr(start, count)` - returns string from `start` to `start + count`
 
-###search
+### search
 
 `endsWith(str)` - returns whether end of string matches `str`
 `startsWith(str)` - returns whether start of string matches `str`
@@ -22,15 +22,15 @@
 `match(regex)` - returns `regex` matches for string
 `search(regex/str)` - returns index of first `regex/str` match
 
-###map
+### map
 
 `repeat(count)` - returns string repeated `count` times
 `split(str)` - returns array of chunks, split on `str`
 `replace(regex/str, str2)` - replaces `regex/str` matches with `str2`
 
-##Array
+## Array
 
-###mutation
+### mutation
 
 `push(elem)` - adds `elem` to end of array, returns new array length
 `unshift(elem)` - adds `elem` to beginnging of array, returns new array length
@@ -40,14 +40,14 @@
 `reverse()` - reverses the array
 `fill(elem, start, end)` - replace elems with `elem` from `start` to `end`
 
-###map
+### map
 
 `map(iteratee(el, idx, arr))` - returns a new array with iteratee applied to each element
 `concat(...elems)` - merges array with `elems` into new array, arrays in `elems` first unpacked to values
 `slice(start, end)` - returns array from index `start` to `end - 1`. if `start >= end`, an empty array is returned
 `filter(iteratee(el, idx, arr))` - returns an array composed of all elements for which iteratee returns true
 
-###reduce/search
+### reduce/search
 
 `reduce(iteratee(acc, el, idx, arr), startAcc)` - returns a value composed of `startAcc` and running `iteratee` on each element in array
 `reduceRight` - like `reduce` but then iterated from end of array to beginning
