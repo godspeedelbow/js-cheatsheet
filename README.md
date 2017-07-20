@@ -95,7 +95,7 @@
 
 - `new RegExp(str, modifiers)`
 
-- `/<str>/<modifiers>`
+- `/str/modifiers`
 
 `str` is a regex which consists of one or more Tokens. `modifiers` are optional
 
