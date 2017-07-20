@@ -1,11 +1,8 @@
 # Javascript Cheat Sheet
 
 - [String](#string)
-
 - [Array](#array)
-
 - [RegExp](#regexp)
-
 - [async/await](#asyncawait)
 
 ## String
