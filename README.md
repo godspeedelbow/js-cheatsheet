@@ -86,36 +86,36 @@
 
 ## async/await
 
-[```
+```
 async function foo() {
     return 42;
 }
-[```
+```
 
 is syntactic sugar for:
 
-[```
+```
 function foo() {
     return new Promise(resolve => {
         resolve(42);
     });
 }
-[```
+```
 
 and this:
 
-[```
+```
 const data = await something();
 // ...do something...
-[```
+```
 
 is syntactic sugar for:
 
-[```
+```
 something().then(data => {
     // ...do something...
 });
-[```
+```
 
 - `async` keyword makes a function return a promise which is `resolve`d when the function returns
 - `await` keyword waits (locally blocks) for an async function (or promise) to resolve and then replaces the promise with the value it resolved to and continues code execution
