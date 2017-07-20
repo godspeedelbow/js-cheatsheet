@@ -2,7 +2,7 @@
 
 ## String
 
-### access
+#### access
 
 `charAt(index)` - returns the character at `index`
 
@@ -12,7 +12,7 @@
 
 `substr(start, count)` - returns string from `start` to `start + count`
 
-### search
+#### search
 
 `endsWith(str)` - returns whether end of string matches `str`
 
@@ -30,7 +30,7 @@
 
 `search(regex/str)` - returns index of first `regex/str` match
 
-### map
+#### map
 
 `repeat(count)` - returns string repeated `count` times
 
@@ -40,7 +40,7 @@
 
 ## Array
 
-### mutation
+#### mutation
 
 `push(elem)` - adds `elem` to end of array, returns new array length
 
@@ -56,7 +56,7 @@
 
 `fill(elem, start, end)` - replace elems with `elem` from `start` to `end`
 
-### map
+#### map
 
 `map(iteratee(el, idx, arr))` - returns a new array with iteratee applied to each element
 
@@ -66,7 +66,7 @@
 
 `filter(iteratee(el, idx, arr))` - returns an array composed of all elements for which iteratee returns true
 
-### reduce/search
+#### reduce/search
 
 `reduce(iteratee(acc, el, idx, arr), startAcc)` - returns a value composed of `startAcc` and running `iteratee` on each element in array
 
