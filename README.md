@@ -1,5 +1,13 @@
 # Javascript Cheat Sheet
 
+- [String](#string)
+
+- [Array](#array)
+
+- [RegExp](#regexp)
+
+- [async/await](#asyncawait)
+
 ## String
 
 #### access
@@ -84,7 +92,7 @@
 
 [`includes(elem, start)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - find `elem` in array, if start is undefined or < 0, the entire array is searched
 
-### RegExp
+## RegExp
 
 #### Creation
 
