@@ -84,6 +84,85 @@
 
 [`includes(elem, start)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) - find `elem` in array, if start is undefined or < 0, the entire array is searched
 
+### RegExp
+
+#### Creation
+
+- `new RegExp(str, modifiers)`
+
+- `/<str>/<modifiers>`
+
+`str` is a regex which consists of one or more Tokens. `modifiers` are optional
+
+#### Methods
+[`test(str)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test) - returns whether the regex has any matches in `str`
+
+[`exec(str)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec) - search for any matches in `str`, returns `null` if no match found. Updates regex object
+
+#### Tokens
+
+`abc…` - Letters
+
+`123…` - Digits
+
+`\d` - Any Digit
+
+`\D` - Any Non-digit character
+
+`.` - Any Character
+
+`\.` - Period
+
+`[abc]` - Only a, b, or c
+
+`[^abc]` - Not a, b, nor c
+
+`[a-z]` - Characters a to z
+
+`[0-9]` - Numbers 0 to 9
+
+`\w` - Any Alphanumeric character
+
+`\W` - Any Non-alphanumeric character
+
+`{m}` - m Repetitions
+
+`{m,n}` - m to n Repetitions
+
+`*` - Zero or more repetitions
+
+`+` - One or more repetitions
+
+`?` - Zero or one repetitions
+
+`\s` - Any Whitespace
+
+`\S` - Any Non-whitespace character
+
+`^…$` - Starts and ends
+
+`(…)` - Capture Group
+
+`(a(bc))` - Capture Group and Sub-group
+
+`(abc|def)` - Matches abc or def
+
+
+#### Modifiers
+
+`i` - performs case-insensitive matching
+
+`g` - performs a global match (find all matches rather than stopping after the first match)
+
+`m` - performs multiline matching
+
+#### Reference
+
+- [RegexOne tutorial](https://regexone.com/)
+
+- [RegEx101 interactive regex tester](https://regex101.com/)
+
+
 ## async/await
 
 ```js
