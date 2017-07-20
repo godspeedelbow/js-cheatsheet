@@ -86,7 +86,7 @@
 
 ## async/await
 
-```
+```js
 async function foo() {
     return 42;
 }
@@ -94,7 +94,7 @@ async function foo() {
 
 is syntactic sugar for:
 
-```
+```js
 function foo() {
     return new Promise(resolve => {
         resolve(42);
@@ -104,14 +104,14 @@ function foo() {
 
 and this:
 
-```
+```js
 const data = await something();
 // ...do something...
 ```
 
 is syntactic sugar for:
 
-```
+```js
 something().then(data => {
     // ...do something...
 });
