@@ -77,6 +77,8 @@
 
 [`reduceRight`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight) - like `reduce` but then iterated from end of array to beginning
 
+[`find(iteratee(el, idx, arr))`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - returns the value of the first element in the array that satisfies iteratee. Otherwise `undefined`
+
 [`indexOf(elem)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) - returns first index at where `elem` was found (using `===`)
 
 [`lastIndexOf(elem)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) - returns last index at where `elem` was found (using `===`)
